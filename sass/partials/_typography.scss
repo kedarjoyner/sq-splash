@@ -1,0 +1,16 @@
+
+body {
+  font-family: $base-font-family;
+  font-weight: $base-font-weight;
+  line-height: $base-line-height;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: $header-font;
+  text-align: center;
+  font-weight: $header-font-weight;
+  letter-spacing: $header-letter-spacing
+}
