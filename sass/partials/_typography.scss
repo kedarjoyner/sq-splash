@@ -14,3 +14,17 @@ h4 {
   font-weight: $header-font-weight;
   letter-spacing: $header-letter-spacing
 }
+
+a,
+a:focus,
+a:active,
+a.active {
+    outline: 0 !important;
+    color: $white;
+    text-decoration: none !important;
+}
+
+
+a:hover {
+  color: $blue;
+}
