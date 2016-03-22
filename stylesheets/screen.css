@@ -1,83 +1,108 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 .img-wrap {
   margin: 0 auto;
   text-align: center;
-  padding-bottom: 30px
+  padding-bottom: 30px;
 }
 .img-wrap #logo {
-  max-width: 125px
+  max-width: 125px;
 }
+
 .text-wrap {
   text-align: center;
   padding-top: 15%;
-  padding-bottom: 10%
+  padding-bottom: 10%;
 }
 .text-wrap h1 {
-  font-size: 6em
+  font-size: 6em;
 }
 .text-wrap social-wrap {
-  padding-top: 15px
+  padding-top: 15px;
 }
+
 #description {
   padding-top: 45px;
   padding-bottom: 40px;
   font-size: 1.5em;
   font-weight: 300;
-  color: white
+  color: white;
 }
+
 @media (max-width: 600px) {
   .text-wrap h1 {
-    font-size: 4em
+    font-size: 4em;
   }
 }
 body {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-weight: 400;
-  line-height: 1.4
+  line-height: 1.4;
 }
-h1, h2, h3, h4 {
+
+h1,
+h2,
+h3,
+h4 {
   font-family: "Montserrat", Helvetica, Arial, sans-serif;
   text-align: center;
   font-weight: 700;
-  letter-spacing: .03em
+  letter-spacing: 0.03em;
 }
-a, a:focus, a:active, a.active {
+
+a,
+a:focus,
+a:active,
+a.active {
   outline: 0 !important;
-  color: #fff;
-  text-decoration: none !important
+  color: #FFFFFF;
+  text-decoration: none !important;
 }
+
 a:hover {
-  color: #93D6CD
+  color: #93D6CD;
 }
+
 #sub-header {
-  font-weight: 400
+  font-weight: 400;
 }
+
 .social-container {
-  padding-top: 20px
+  padding-top: 20px;
 }
-.btn-social, .btn-outline {
+
+.btn-social,
+.btn-outline {
   display: inline-block;
   width: 50px;
   height: 50px;
-  color: #fff;
-  border: solid 1px #fff;
+  color: #FFFFFF;
+  border: solid 1px #FFFFFF;
   border-radius: 100%;
   text-align: center;
   font-size: 2em;
   line-height: 45px;
   background: 0 0;
-  transition: all 0.3s ease-in-out
+  transition: all 0.3s ease-in-out;
 }
-.btn-social a>i, .btn-outline a>i {
-  color: #fff
+.btn-social a > i,
+.btn-outline a > i {
+  color: #FFFFFF;
 }
-.btn-social i:hover, .btn-outline i:hover {
-  color: #93D6CD
+.btn-social i:hover,
+.btn-outline i:hover {
+  color: #93D6CD;
 }
-.btn-social:hover, .btn-outline:hover {
+
+.btn-social:hover,
+.btn-outline:hover {
   border: 1px solid #93D6CD;
   color: #93D6CD;
-  background: #fff
+  background: #FFFFFF;
 }
+
 body {
   color: white;
   background: linear-gradient(rgba(217, 46, 39, 0.8), rgba(217, 46, 39, 0.7)), url('../images/new-york-2.jpeg?1458579277');
@@ -87,5 +112,5 @@ body {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover
+  background-size: cover;
 }
